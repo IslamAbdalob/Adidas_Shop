@@ -1,0 +1,185 @@
+@media (max-width:1000px) {
+    .intro {
+        height: 700px;
+    }
+
+    .nav__list {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:900px) {
+    .card {
+        height: 170px;
+    }
+
+    .card img {
+        width: 80px;
+    }
+
+    .card__title {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:800px) {
+    .intro {
+        height: 600px;
+    }
+
+    .intro img {
+        width: 200px;
+    }
+
+    .intro__title {
+        font-size: 45px;
+        line-height: 120%;
+        margin: 10px 0;
+    }
+
+    .intro__text {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    input {
+        width: 170px;
+        padding: 6px 10px;
+    }
+
+    button {
+        padding: 6px 12px;
+        border: none;
+    }
+
+    .nav__list {
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width:700px) {
+    .tiro {
+        padding: 15px;
+    }
+
+    .tiro__text {
+        margin-top: 15px;
+        text-align: justify;
+    }
+
+    .tiro__img {
+        margin-top: 15px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 50%;
+    }
+}
+
+@media (max-width:650px) {
+    .footer {
+        padding: 15px;
+        margin-top: 5px;
+    }
+
+    .catalog__box {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+        column-gap: 15px;
+    }
+
+    .catalog__list {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog__title {
+        font-size: 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav__link {
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+
+    .nav__list {
+        margin-left: 0px;
+    }
+
+    .intro {
+        height: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .footer img {
+        width: 80px;
+    }
+
+    .footer__link {
+        font-size: 18px;
+    }
+
+    .intro {
+        height: 400px;
+    }
+
+    .intro img {
+        width: 140px;
+    }
+
+    .intro__title {
+        font-size: 35px;
+        line-height: 100%;
+    }
+
+    .intro__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .catalog__list {
+        width: 45%;
+    }
+
+    .intro {
+        height: 320px;
+    }
+
+    .card {
+        height: 140px;
+    }
+
+    .card img {
+        width: 60px;
+    }
+
+    .card__title {
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
+@media (max-width:350px) {
+    .footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer__link{
+        margin: 0 15px;
+    }
+}

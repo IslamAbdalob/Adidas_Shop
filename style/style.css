@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    margin-left: 200px;
+}
+
+.nav__link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    padding: 30px 15px;
+    color: #000;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.nav__link:hover {
+    border-color: #000;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    width: 216px;
+    padding: 8px 12px;
+    border: 2px solid #000000;
+    border-radius: 10px 0 0 10px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border-radius: 0 10px 10px 0;
+}
+
+.intro {
+    background-image: url(../images/qiz.png);
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__title {
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.intro__text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Box start */
+.box {
+    display: flex;
+}
+
+.card {
+    background-color: #181D28;
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.card:hover {
+    background-color: #6B4B6B;
+}
+
+/* Box end */
+/* Tiro start */
+.tiro {
+    padding: 40px 0;
+}
+
+.tiro__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+}
+
+.tiro__text {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.tiro__img {
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* Tiro end */
+/* Catalog start */
+.catalog__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.catalog__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.catalog__list {
+    list-style: none;
+}
+
+.catalog__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 14px;
+    display: block;
+}
+
+/* Catalog end */
+/* Footer start */
+.footer {
+    padding: 35px;
+    background-color: #181D28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+.footer__list {
+    display: flex;
+    list-style: none;
+}
+.footer__link {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
